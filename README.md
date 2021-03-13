@@ -1,29 +1,5 @@
-# Gittigidiyor-Testing
+# Gittigidiyor
 
-import base.Base;
-import org.apache.log4j.Logger;
-import org.junit.After;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-
-import java.util.concurrent.TimeUnit;
-
-public class ExampleTest extends Base {
-   // protected WebDriver driver;
-    final static Logger logger = Logger.getLogger(ExampleTest.class);
-    public static String loginUrl="https://www.gittigidiyor.com/";
-
-    @Before
-    public void setUp(){
-        logger.info("Test baslatildi.");
-        super.setUp();
-    }
 
     @Test
     public void correctLogin(){
