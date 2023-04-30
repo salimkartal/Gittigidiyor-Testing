@@ -37,10 +37,10 @@ public class ExampleTest extends Base {
         driver.manage().timeouts().implicitlyWait(45, TimeUnit.SECONDS);
         WebElement mail= driver.findElement(By.id("L-UserNameField"));
         mail.click();
-        mail.sendKeys("salimkartal@outlook.com.tr");
+        mail.sendKeys("***");
         WebElement password = driver.findElement(By.id("L-PasswordField"));
         password.click();
-        password.sendKeys("bursa1320");
+        password.sendKeys("***");
         driver.manage().timeouts().implicitlyWait(45, TimeUnit.SECONDS);
         driver.findElement(By.id("gg-login-enter")).click();
 
